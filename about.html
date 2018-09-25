@@ -10,13 +10,15 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+     <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Special+Elite" rel="stylesheet">
+
+    <!-- external css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>About Us</title>
+    <title>About</title>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -25,96 +27,145 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </head>
-  <body>
-  	<section class="jumbotron mb-0">
-  		<h1 class="text-center animated fadeIn" id="landing-about">MEET THE TEAM</h1>
+  <body class="about">
+  	<section class="jumbotron mb-3">
+
+  		<h1 class="text-center animated fadeIn text-success" id="landing-about">MEET THE TEAM</h1>
   	</section>
 
-  	<div class="container-fluid px-0">
-  		<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-  			<a href="#" class="navbar-brand"><i class="fas fa-american-sign-language-interpreting"></i>Company Brand</a>	
+    <div class="card-deck m-3">
+  		<div class="card">
+    		<img class="card-img-top" src="assets/images/em1.png" alt="Card image cap">
+    		<div class="card-body">
+     			<h5 class="card-title">Yen - the Boss</h5>
+    		</div>
+ 		</div>
+  		<div class="card">
+    		<img class="card-img-top" src="assets/images/em2.png" alt="Card image cap">
+    		<div class="card-body">
+      			<h5 class="card-title">Lena - the Employee</h5>
+    		</div>
+  		</div>
+  		<div class="card">
+    		<img class="card-img-top" src="assets/images/em1.png" alt="Card image cap">
+    		<div class="card-body">
+      			<h5 class="card-title">Yen - The Brain</h5>      
+    		</div>
+  		</div>
+  		<div class="card">
+    		<img class="card-img-top" src="assets/images/em2.png" alt="Card image cap">
+    		<div class="card-body">
+      			<h5 class="card-title">Lena -the Manufacturer</h5>
+    		</div>
+  		</div>
+	</div><!-- card row end -->
 
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav">
-  				<span class="navbar-toggler-icon"></span>
-  			</button>
 
-  			<div class="collapse navbar-collapse" id="navbarNav">
-  				<ul class="navbar-nav ml-auto">
-  					<li class="nav-item">
-  						<a class="nav-link" href="#">
-  							Home
-  						</a>
-  					</li>
-  					<li class="nav-item">
-  						<a class="nav-link" href="#">
-  							Contact
-  						</a>
-  					</li>
-  					<li class="nav-item">
-  						<a class="nav-link" href="#">
-  							About Us
-  						</a>
-  					</li>
-  				</ul>
-  			</div>
-  		</nav>
+    <!-- navbar -->
+  	<section class="navigation sticky-top">
+      <div class="container-fluid ml-auto">
+        <nav class="navbar navbar-expand-lg navbar-trans">
+          <a href="index.html" target="_blank" class="navbar-brand"><img src="assets/images/logo4.png" alt="LemonMade"></a> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link mr-5 font-italic" href="home.html" target="_blank">
+                  Home<span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link mr-5 font-italic" href="about.html" target="_blank">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5 font-italic" href="gallery.html" target="_blank">
+                  Gallery
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-5 font-italic" href="contact.html" target="_blank">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav> <!-- end nav -->
+      </div> <!-- end nav container --> 
+    </section> <!-- end navigation -->
 
-  		<section class="p-5" id="mission">
-  			<h2 class="mb-5 about-tags">Our Misssion</h2>
-  			<p class="text-justify">
-  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  			</p>
-  			
-  			<p class="lead text-justify">
-  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	  		</p>
+  	<section class="p-5" id="about us">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-2"></div>
+  				<div class="col-lg-3">
+		  			<div class="row">
+		  				<h2 class="font-weight-bold about-tags text-success text-right pr-5">The LemonMade Story</h2>
+		  			</div>
+		  			<div class="row">
+		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- About Us</h3>
+		  			</div>
+	  			</div>
+	  			<div class="col-lg-7">
+		        	<p class="text-justify">
+			          LemonMade is a fairly new brand started in 2002 when a young dreamer and nature lover, Yen Park, began a neighborhood project to provide fresh and organic juice for her family, friends and neighbors.
+			      	</p>  
 
-			<p class="lead text-justify">
-  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	  		</p>
+		         	<p class="lead text-justify"> There has been a growing awareness about the importance of organic food and Yen and her neighborhood made a switch from the "regular" grocery store to an organic variety years ago but she couldn't find a juice that tasted as good and fresh as the local lemon juice she had when she lived in Santa Monica, Mexico. She had to find a way to bring back that memory to her family and friends.
+		         	</p> 
 
-  		</section>
+	          	<p>Yen, partnered with Lena Lang of Lang Farms, pressed her first batch of LemonMade juice making it one of the first USDA approved organic and non GMO products and the start of LemonMade Farms.
+	          	</p>
 
-  		<section class="p-5" id="vision">
-  			<h2 class="text-right mb-5 about-tags">Our Vision</h2>
+		         	<p class="lead text-justify">LemondMade is very proud today to be offering a lemon juice with the taste and quality that LemonMade Farm provides: non-GMO and USDA approved organic! But it's not only about the juice. Offering superior customer service is our priority and we challenge you to put us to the test.
+		        	</p>  
+		        </div>	
+	        </div>	
+    	</div>
+    </section>	
 
-  			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  			
-  		</section>
+	<section class="p-5" id="mission">
+  		<div class="container">
+  			<div class="row">
+	  			<div class="col-lg-7">
+		        	<p class="text-justify-right">
+			         Our mission is to provide you fresh and organic, given - delicious drink that you, your family and the next generations of your family can enjoy without having to worry about the consequences in your health.
+			     	</p>  
+		        </div>
+  				<div class="col-lg-3">
+		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Mission</h3>
+		  		</div>
+	  			<div class="col-lg-2"></div>	
+	        </div>	
+    	</div>
+    </section>	
+
+    <section class="p-5" id="vision">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-2"></div>
+  				<div class="col-lg-3">
+		  			<div class="row">
+		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Vision</h3>
+		  			</div>
+	  			</div>
+	  			<div class="col-lg-7">
+		        	<p class="lead text-justify">Our vision is to make a change in the growing problem in our food health that seems to be gradually being taken as the norm. It is a lot of hard work, seems a bit more expensive now than the alternative but will benefit us more now and the years to come. 
+  					</p> 
+		        </div>	
+	        </div>	
+    	</div>
+    </section>	
+
   	</div>
 
+    <div class="container-fluid-nav mt-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-ghost text"> 
+        <small class="navbar-text mx-auto">&copy 2018 Renalyn Laig Tuitt-B6NC | <a href="#">Disclaimer</a></small>
+    </nav>  <!-- end nav -->
     
   </body>
 </html>
