@@ -27,145 +27,153 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </head>
-  <body class="about">
-  	<section class="jumbotron mb-3">
+  <body id="about">
 
-  		<h1 class="text-center animated fadeIn text-success" id="landing-about">MEET THE TEAM</h1>
-  	</section>
-
-    <div class="card-deck m-3">
-  		<div class="card">
-    		<img class="card-img-top" src="assets/images/em1.png" alt="Card image cap">
-    		<div class="card-body">
-     			<h5 class="card-title">Yen - the Boss</h5>
-    		</div>
- 		</div>
-  		<div class="card">
-    		<img class="card-img-top" src="assets/images/em2.png" alt="Card image cap">
-    		<div class="card-body">
-      			<h5 class="card-title">Lena - the Employee</h5>
-    		</div>
-  		</div>
-  		<div class="card">
-    		<img class="card-img-top" src="assets/images/em1.png" alt="Card image cap">
-    		<div class="card-body">
-      			<h5 class="card-title">Yen - The Brain</h5>      
-    		</div>
-  		</div>
-  		<div class="card">
-    		<img class="card-img-top" src="assets/images/em2.png" alt="Card image cap">
-    		<div class="card-body">
-      			<h5 class="card-title">Lena -the Manufacturer</h5>
-    		</div>
-  		</div>
-	</div><!-- card row end -->
-
-
-    <!-- navbar -->
-  	<section class="navigation sticky-top">
-      <div class="container-fluid ml-auto">
-        <nav class="navbar navbar-expand-lg navbar-trans">
-          <a href="index.html" target="_blank" class="navbar-brand"><img src="assets/images/logo4.png" alt="LemonMade"></a> 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav">
+      <!-- nav -->
+    <section class="navigation-bar">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="index.html" target="_blank" id="brand"><img src="assets/images/logo4.png" alt="LemonMade"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link mr-5 font-italic" href="home.html" target="_blank">
-                  Home<span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link mr-5 font-italic" href="about.html" target="_blank">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-5 font-italic" href="gallery.html" target="_blank">
-                  Gallery
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mr-5 font-italic" href="contact.html" target="_blank">
-                  Contact
-                </a>
-              </li>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link mr-5 font-italic" href="home.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  
+                <li class="nav-item active">
+                  <a class="nav-link mr-5 font-italic" href="about.html" target="_blank">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mr-5 font-italic" href="home.html#product" target="_blank">Product</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mr-5 font-italic" href="topic.html" target="_blank">Topic</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mr-5 font-italic" href="faqs.html" target="_blank">FAQs</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link mr-5 font-italic" href="contact.html" target="_blank">Contact</a>
+                </li>
             </ul>
           </div>
         </nav> <!-- end nav -->
-      </div> <!-- end nav container --> 
-    </section> <!-- end navigation -->
+      </div>  
+    </section>  <!-- end navigation-bar -->
 
-  	<section class="p-5" id="about us">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-lg-2"></div>
-  				<div class="col-lg-3">
-		  			<div class="row">
-		  				<h2 class="font-weight-bold about-tags text-success text-right pr-5">The LemonMade Story</h2>
-		  			</div>
-		  			<div class="row">
-		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- About Us</h3>
-		  			</div>
-	  			</div>
-	  			<div class="col-lg-7">
-		        	<p class="text-justify">
-			          LemonMade is a fairly new brand started in 2002 when a young dreamer and nature lover, Yen Park, began a neighborhood project to provide fresh and organic juice for her family, friends and neighbors.
-			      	</p>  
 
-		         	<p class="lead text-justify"> There has been a growing awareness about the importance of organic food and Yen and her neighborhood made a switch from the "regular" grocery store to an organic variety years ago but she couldn't find a juice that tasted as good and fresh as the local lemon juice she had when she lived in Santa Monica, Mexico. She had to find a way to bring back that memory to her family and friends.
-		         	</p> 
+    <section class="jumbotron my-3">
+      <h1 class="text-center animated fadeIn text-success" id="landing-about">MEET THE TEAM</h1>
+      <h2 class="font-weight-light text-warning font-italic text-center">- About Us</h2>
+    </section>
 
-	          	<p>Yen, partnered with Lena Lang of Lang Farms, pressed her first batch of LemonMade juice making it one of the first USDA approved organic and non GMO products and the start of LemonMade Farms.
-	          	</p>
+    <div class="card-deck m-3">
+      <div class="card">
+        <img class="card-img-top" src="assets/images/e1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Yen - the Brain</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/images/e2.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lena - the Doer</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/images/e1.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Yen - the CEO</h5>      
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/images/e2.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lena - the COO</h5>
+        </div>
+      </div>
+    </div><!-- card end -->
 
-		         	<p class="lead text-justify">LemondMade is very proud today to be offering a lemon juice with the taste and quality that LemonMade Farm provides: non-GMO and USDA approved organic! But it's not only about the juice. Offering superior customer service is our priority and we challenge you to put us to the test.
-		        	</p>  
-		        </div>	
-	        </div>	
-    	</div>
-    </section>	
+    <section class="p-5" id="about us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <h2 class="font-weight-bold text-success text-center mb-5">The LemonMade Story</h2>
+          </div>    
+        </div>
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <div class="row">
+              <h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our History</h3>
+            </div>
+          </div>
+          <div class="col-lg-7">
+              <p class="text-justify">
+                LemonMade is a fairly new brand started in 2002 when a young dreamer and nature lover, Yen Park, began a neighborhood project to provide fresh and organic juice for her family, friends and neighbors.
+              </p>  
 
-	<section class="p-5" id="mission">
-  		<div class="container">
-  			<div class="row">
-	  			<div class="col-lg-7">
-		        	<p class="text-justify-right">
-			         Our mission is to provide you fresh and organic, given - delicious drink that you, your family and the next generations of your family can enjoy without having to worry about the consequences in your health.
-			     	</p>  
-		        </div>
-  				<div class="col-lg-3">
-		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Mission</h3>
-		  		</div>
-	  			<div class="col-lg-2"></div>	
-	        </div>	
-    	</div>
-    </section>	
+              <p class="lead text-justify"> There has been a growing awareness about the importance of organic food and Yen and her neighborhood made a switch from the "regular" grocery store to an organic variety years ago but she couldn't find a juice that tasted as good and fresh as the local lemon juice she had when she lived in Santa Monica, Mexico. She had to find a way to bring back that memory to her family and friends.
+              </p> 
+
+                <p>Yen, partnered with Lena Lang of Lang Farms, pressed her first batch of LemonMade juice making it one of the first USDA approved organic and non GMO products and the start of LemonMade Farms.
+                </p>
+
+              <p class="lead text-justify">LemondMade is very proud today to be offering a lemon juice with the taste and quality that LemonMade Farm provides: non-GMO and USDA approved organic! But it's not only about the juice. Offering superior customer service is our priority and we challenge you to put us to the test.
+              </p>  
+            </div>  
+          </div>  
+      </div>
+    </section>  
+
+    <section class="p-5" id="mission">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <p class="text-justify-right">
+             Our mission is to provide you fresh and organic, given - delicious drink that you, your family and the next generations of your family can enjoy without having to worry about the consequences in your health.
+            </p>  
+          </div>
+          <div class="col-lg-3">
+              <h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Mission</h3>
+          </div>
+          <div class="col-lg-2"></div>  
+        </div>  
+      </div>
+    </section>  
 
     <section class="p-5" id="vision">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-lg-2"></div>
-  				<div class="col-lg-3">
-		  			<div class="row">
-		  				<h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Vision</h3>
-		  			</div>
-	  			</div>
-	  			<div class="col-lg-7">
-		        	<p class="lead text-justify">Our vision is to make a change in the growing problem in our food health that seems to be gradually being taken as the norm. It is a lot of hard work, seems a bit more expensive now than the alternative but will benefit us more now and the years to come. 
-  					</p> 
-		        </div>	
-	        </div>	
-    	</div>
-    </section>	
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <div class="row">
+              <h3 class="pl-4 font-weight-light font-italic text-warning text-right">- Our Vision</h3>
+            </div>
+          </div>
+          <div class="col-lg-7">
+              <p class="lead text-justify">Our vision is to make a change in the growing problem in our food health that seems to be gradually being taken as the norm. It is a lot of hard work, a bit more expensive now than the alternative but will benefit us more now and the years to come. 
+            </p> 
+            </div>  
+          </div>  
+      </div>
+    </section>  
 
-  	</div>
 
     <div class="container-fluid-nav mt-3">
-      <nav class="navbar navbar-expand-lg navbar-light bg-ghost text"> 
-        <small class="navbar-text mx-auto">&copy 2018 Renalyn Laig Tuitt-B6NC | <a href="#">Disclaimer</a></small>
-    </nav>  <!-- end nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent"> 
+        <small class="navbar-text mx-auto">&copy 2018 Renalyn Laig Tuitt-B6NC | <a href="disclaimer.html" target="_blank">Disclaimer</a></small>
+      </nav>  <!-- end nav -->
+    </div>
     
   </body>
 </html>
